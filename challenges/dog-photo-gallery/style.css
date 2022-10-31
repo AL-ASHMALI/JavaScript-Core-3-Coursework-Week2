@@ -1,0 +1,30 @@
+body {
+    background-color: #DD5353;
+}
+
+div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+ul{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 5px;
+}
+
+img{
+   width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+    
+button {
+    background-color: black;
+    color: white;
+    border-radius: 5px; 
+    border: 2px solid darkgray;
+    padding: 10px;
+    cursor: pointer;
+}
